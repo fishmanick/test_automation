@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Login" key="{B93FBA74-7ED0-4463-907E-4C8641ABDC25}" path="Login.tcKDTest" />
+		<child name="Logout" key="{C7C5602A-1C01-4B45-AD7F-EF611B231FA3}" path="Logout.tcKDTest" />
+		<child name="CreatePost" key="{3867827E-F0C5-4729-BDFE-C33C60829020}" path="CreatePost.tcKDTest" />
+		<child name="CreateComment" key="{18087692-8ABD-446E-A521-1C29F0FCF2A1}" path="CreateComment.tcKDTest" />
+	</children>
+</Root>

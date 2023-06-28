@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{780407D8-F58C-4FF0-9B41-E7B79D26C0FD}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{4398D766-FE9C-4391-AED6-E5103FC152D5}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{48ED9E06-D89B-4B15-89CF-CE905376AA20}">
+								<Image FileName="-965935757" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSignIn" Key="{84BF53B9-A780-4068-A4FA-92EBEB3C93CD}">
+								<Image FileName="-498467297" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://127.0.0.1:7000/sign-in" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSignIn" Key="{46F8790F-CD17-4EA8-824F-4429EEE84218}">
+										<Image FileName="-498467297" Left="710" Top="354" Right="1210" Bottom="838" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;sign-in-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmail" Key="{2F1D64DF-1C2D-4EC3-A509-F20A06A680F9}">
+										<Image FileName="-498467297" Left="731" Top="460" Right="1189" Bottom="501" />
+										<TypeInfo Item0="{2582A580-5D8E-4427-B349-335155864B23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#sign-in__email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn" Key="{2BBE0621-9B75-4F1F-8A13-04558A2AB1CC}">
+										<Image FileName="-88360651" Left="731" Top="627" Right="1189" Bottom="671" />
+										<TypeInfo Item0="{5F7DDDB7-248F-407B-B454-F30B6A92A4BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;form__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="page1270017000" Key="{0BAADC86-9B5F-451E-8F52-1AF21BDE5547}">
+								<Image FileName="672577638" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://127.0.0.1:7000/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerSignIn" Key="{8D0231C4-7A69-4731-8132-67C9E8D262D9}">
+										<Image FileName="672577638" Left="0" Top="88" Right="1899" Bottom="183" />
+										<Selectors>
+											<Selector>
+												<Value Value="header[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSignIn" Key="{C2433C98-85C5-40AF-8DDC-1FBD6E9038C7}">
+										<Image FileName="672577638" Left="124" Top="98" Right="1774" Bottom="173" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn" Key="{9799FB85-F935-47CF-860F-D6EE5E697B3F}">
+										<Image FileName="672577638" Left="1540" Top="113" Right="1638" Bottom="157" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{69284D71-5310-414A-8ABE-EC66A62C6744}">
+										<Image FileName="672577638" Left="1540" Top="113" Right="1638" Bottom="157" />
+										<TypeInfo Item0="{2582A580-5D8E-4427-B349-335155864B23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;header__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerNewPost" Key="{3DB5048C-FAFE-4F9A-A40B-E9510C3B5FC2}">
+										<Image FileName="-2063686939" Left="0" Top="88" Right="1899" Bottom="183" />
+										<Selectors>
+											<Selector>
+												<Value Value="header[contains(., &apos;New post&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navNewPost" Key="{7ED09205-C449-4FA4-9F55-CE7AA91B6564}">
+										<Image FileName="-2063686939" Left="124" Top="98" Right="1774" Bottom="173" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;New post&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNewPost" Key="{70D14610-263D-4389-AEE0-6A7F21D001ED}">
+										<Image FileName="-2063686939" Left="1560" Top="113" Right="1690" Bottom="159" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;New post&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNewPost" Key="{D16D9A27-9670-43A4-AF94-B3088496D5EB}">
+										<Image FileName="-2063686939" Left="1560" Top="113" Right="1690" Bottom="159" />
+										<TypeInfo Item0="{2582A580-5D8E-4427-B349-335155864B23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;New post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;header__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{D51EA42C-FEC9-4AF1-94B7-9A3800A4C5EA}">
+										<Image FileName="-155247544" Left="900" Top="665" Right="1020" Bottom="709" />
+										<TypeInfo Item0="{5F7DDDB7-248F-407B-B454-F30B6A92A4BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;OK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;alert__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkReadMore" Key="{AFED87A8-0B38-483D-8C40-F5DDF2EC4D05}">
+										<Image FileName="-2075477372" Left="156" Top="354" Right="329" Bottom="398" />
+										<TypeInfo Item0="{2582A580-5D8E-4427-B349-335155864B23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Read more&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a[contains(@class, &apos;card__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCreate" Key="{4A014755-5F80-464A-BF44-F781F42ECA6F}">
+								<TypeInfo Item0="{C13B209C-50B2-47E8-8B0A-190485C82B1B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://127.0.0.1:7000/posts/create" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formCancel" Key="{A3BC3FF2-63CA-4F38-979B-6613E68E8C02}">
+										<Image FileName="1121863386" Left="460" Top="203" Right="1460" Bottom="413" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Cancel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;posts&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;post-creating-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{076B4921-8868-499A-84D1-0BF4343BEF9B}">
+										<Image FileName="1121863386" Left="481" Top="224" Right="1439" Bottom="281" />
+										<TypeInfo Item0="{2582A580-5D8E-4427-B349-335155864B23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;post-form__title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/form/div/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{07218AFF-00EC-404D-BE13-FA4872141DF3}">
+										<Image FileName="-1704288377" Left="481" Top="291" Right="1439" Bottom="328" />
+										<TypeInfo Item0="{2582A580-5D8E-4427-B349-335155864B23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;post-form__description&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPost" Key="{E8343268-A012-4F09-AA4D-33B6650E15AA}">
+										<Image FileName="-1208114573" Left="1363" Top="348" Right="1439" Bottom="392" />
+										<TypeInfo Item0="{5F7DDDB7-248F-407B-B454-F30B6A92A4BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;post-form__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/form/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="page4" Key="{7F45B40F-67BA-45A8-9EDE-C514344C7771}">
+								<Image FileName="445158153" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://127.0.0.1:7000/posts/4" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerNewPost" Key="{C14F88F2-C323-43A1-A2D8-E0B2C7EF525F}">
+										<Image FileName="445158153" Left="0" Top="88" Right="1899" Bottom="183" />
+										<Selectors>
+											<Selector>
+												<Value Value="header[contains(., &apos;New post&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navNewPost" Key="{4928CE99-3D3A-421E-97D4-A6A09460763B}">
+										<Image FileName="445158153" Left="124" Top="98" Right="1774" Bottom="173" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;New post&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{8024B419-A131-4CBC-A676-B17023F31F7D}">
+										<Image FileName="445158153" Left="139" Top="98" Right="289" Bottom="173" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;logo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUniverse" Key="{67BBA1BE-8DA6-48A5-B4F3-A2D255551F58}">
+										<Image FileName="445158153" Left="139" Top="98" Right="289" Bottom="173" />
+										<TypeInfo Item0="{2582A580-5D8E-4427-B349-335155864B23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;logo.png&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;logo__img&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formNikitaChuhai" Key="{8D3E7D65-5C4C-490F-B075-3D578601DD21}">
+										<Image FileName="1092498630" Left="144" Top="483" Right="1754" Bottom="909" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Nikita Chuhai&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;comments&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;comment-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaDescription" Key="{FC1E8F3A-8335-47F0-A880-DB75B8C3B681}">
+										<Image FileName="1092498630" Left="206" Top="615" Right="1694" Bottom="815" />
+										<TypeInfo Item0="{2582A580-5D8E-4427-B349-335155864B23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;description&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;comment-form__textarea&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSend" Key="{572D30D7-A356-461D-ACAA-706E825E9E3B}">
+										<Image FileName="-614438685" Left="206" Top="825" Right="289" Bottom="869" />
+										<TypeInfo Item0="{5F7DDDB7-248F-407B-B454-F30B6A92A4BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Send&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/button[contains(@class, &apos;button--primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignOut" Key="{CB22570D-C4A6-49C0-A993-0B6BE31B11D7}">
+										<Image FileName="1559362992" Left="1620" Top="246" Right="1760" Bottom="286" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignOut" Key="{E802A6E3-3167-462A-84D4-71ABC341F934}">
+										<Image FileName="1559362992" Left="1635" Top="256" Right="1718" Bottom="276" />
+										<TypeInfo Item0="{5F7DDDB7-248F-407B-B454-F30B6A92A4BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;dropdown__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{4398D766-FE9C-4391-AED6-E5103FC152D5}">
+			<Child Name="BrowserWindow" Owner="{48ED9E06-D89B-4B15-89CF-CE905376AA20}" />
+			<Child Name="pageSignIn" Owner="{84BF53B9-A780-4068-A4FA-92EBEB3C93CD}">
+				<Child Name="formSignIn" Owner="{46F8790F-CD17-4EA8-824F-4429EEE84218}">
+					<Child Name="emailinputEmail" Owner="{2F1D64DF-1C2D-4EC3-A509-F20A06A680F9}" />
+					<Child Name="buttonSignIn" Owner="{2BBE0621-9B75-4F1F-8A13-04558A2AB1CC}" />
+				</Child>
+			</Child>
+			<Child Name="page1270017000" Owner="{0BAADC86-9B5F-451E-8F52-1AF21BDE5547}">
+				<Child Name="headerSignIn" Owner="{8D0231C4-7A69-4731-8132-67C9E8D262D9}">
+					<Child Name="navSignIn" Owner="{C2433C98-85C5-40AF-8DDC-1FBD6E9038C7}">
+						<Child Name="textnodeSignIn" Owner="{9799FB85-F935-47CF-860F-D6EE5E697B3F}">
+							<Child Name="linkSignIn" Owner="{69284D71-5310-414A-8ABE-EC66A62C6744}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="headerNewPost" Owner="{3DB5048C-FAFE-4F9A-A40B-E9510C3B5FC2}">
+					<Child Name="navNewPost" Owner="{7ED09205-C449-4FA4-9F55-CE7AA91B6564}">
+						<Child Name="textnodeNewPost" Owner="{70D14610-263D-4389-AEE0-6A7F21D001ED}">
+							<Child Name="linkNewPost" Owner="{D16D9A27-9670-43A4-AF94-B3088496D5EB}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="buttonOk" Owner="{D51EA42C-FEC9-4AF1-94B7-9A3800A4C5EA}" />
+				<Child Name="linkReadMore" Owner="{AFED87A8-0B38-483D-8C40-F5DDF2EC4D05}" />
+			</Child>
+			<Child Name="pageCreate" Owner="{4A014755-5F80-464A-BF44-F781F42ECA6F}">
+				<Child Name="formCancel" Owner="{A3BC3FF2-63CA-4F38-979B-6613E68E8C02}">
+					<Child Name="textnode" Owner="{076B4921-8868-499A-84D1-0BF4343BEF9B}" />
+					<Child Name="textnode2" Owner="{07218AFF-00EC-404D-BE13-FA4872141DF3}" />
+					<Child Name="buttonPost" Owner="{E8343268-A012-4F09-AA4D-33B6650E15AA}" />
+				</Child>
+			</Child>
+			<Child Name="page4" Owner="{7F45B40F-67BA-45A8-9EDE-C514344C7771}">
+				<Child Name="headerNewPost" Owner="{C14F88F2-C323-43A1-A2D8-E0B2C7EF525F}">
+					<Child Name="navNewPost" Owner="{4928CE99-3D3A-421E-97D4-A6A09460763B}">
+						<Child Name="link" Owner="{8024B419-A131-4CBC-A676-B17023F31F7D}">
+							<Child Name="imageUniverse" Owner="{67BBA1BE-8DA6-48A5-B4F3-A2D255551F58}" />
+						</Child>
+						<Child Name="textnodeSignOut" Owner="{CB22570D-C4A6-49C0-A993-0B6BE31B11D7}">
+							<Child Name="buttonSignOut" Owner="{E802A6E3-3167-462A-84D4-71ABC341F934}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="formNikitaChuhai" Owner="{8D3E7D65-5C4C-490F-B075-3D578601DD21}">
+					<Child Name="textareaDescription" Owner="{FC1E8F3A-8335-47F0-A880-DB75B8C3B681}" />
+					<Child Name="buttonSend" Owner="{572D30D7-A356-461D-ACAA-706E825E9E3B}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

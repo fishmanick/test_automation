@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{18087692-8ABD-446E-A521-1C29F0FCF2A1}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45105.0633912037" objectName="Aliases.browser.page4.headerNewPost.navNewPost.link.imageUniverse" objectLeft="139" objectTop="98" objectRight="289" objectBottom="173" clickPointX="208" clickPointY="131" imageFileName="tcvi217971171137680.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45105.0634259259" objectName="Aliases.browser.page1270017000.linkReadMore" objectLeft="156" objectTop="354" objectRight="329" objectBottom="398" clickPointX="235" clickPointY="383" imageFileName="tcvi217973718137683.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45105.0634375" objectName="Aliases.browser.page4.formNikitaChuhai.textareaDescription" objectLeft="206" objectTop="615" objectRight="1694" objectBottom="815" clickPointX="370" clickPointY="687" imageFileName="tcvi217975234137684.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45105.0634490741" objectName="Aliases.browser.page4.formNikitaChuhai.textareaDescription" objectLeft="206" objectTop="615" objectRight="1694" objectBottom="815" clickPointX="-1" clickPointY="-1" imageFileName="tcvi217976031137687.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45105.0634837963" objectName="Aliases.browser.page4.formNikitaChuhai.buttonSend" objectLeft="206" objectTop="825" objectRight="289" objectBottom="869" clickPointX="265" clickPointY="850" imageFileName="tcvi217979015137688.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
