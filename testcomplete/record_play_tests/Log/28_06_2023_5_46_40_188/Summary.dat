@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="There was an attempt to perform an action on a zero-sized window."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45105.2410821991"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Test1_4"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADMAOQBEADIARQAzAEQALQA2AEYANAA5AC0ANAAwADUAMgAtAEIAMQBEAEEALQA3ADgANABBAEMAMwA5ADIAQgBFADEANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="23830"/>
+						<Prp name="duration" type="I" value="23830"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45105.2407437847"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="Test1"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwADIAQwBDADYANgA5AEUALQA5ADIANAAwAC0ANAA5AEMAMgAtAEEANgBDAEMALQAxADEARgAzAEYANwAwAEYAOQAyAEMARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="6091"/>
+						<Prp name="duration" type="I" value="6091"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;page10&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45105.2409126273"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Test1_3"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwAEEAMgA2AEUARQBEAEMALQBBADMARgBDAC0ANABBAEQAQgAtAEEAOQAxADUALQAwADAAMwA3AEUAMgA4AEUAQQAxADQAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="14645"/>
+						<Prp name="duration" type="I" value="14645"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45105.240814375"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="Test1_2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADkAMAAwAEEAMgA2AEEALQBEADIAQQBCAC0ANAA2AEEAOAAtADgARAAwADYALQA3ADQANAA2ADQAMwBCADYAMAA3ADUANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="8479"/>
+						<Prp name="duration" type="I" value="8479"/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="45105.2407437847"/>
+				<Prp name="name" type="S" value="record_play_tests"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="duration" type="I" value="53045"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="record_play_tests"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="name" type="S" value="record_and_play_tests"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="tests" type="I" value="4"/>
+		<Prp name="failedtests" type="I" value="2"/>
+		<Prp name="starttime" type="D" value="45105.2407437037"/>
+		<Prp name="user" type="S" value="NIKITA"/>
+		<Prp name="host" type="S" value="DESKTOP-CA6O8TA"/>
+		<Prp name="key" type="S" value="{E6F44B89-4B86-4C19-8A6A-96B5B27C0223}"/>
+		<Prp name="stop" type="D" value="45105.2413589005"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+	</Node>
+</Nodes>

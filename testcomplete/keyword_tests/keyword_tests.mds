@@ -20,17 +20,25 @@
 			</testItem>
 			<testItem name="CreateComment" key="{9E8A4B1B-E11C-4E3D-90B1-BCB4A88C94E8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{18087692-8ABD-446E-A521-1C29F0FCF2A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Logout" key="{C57A2B81-9027-4B89-BDA4-7566EBB1C229}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C7C5602A-1C01-4B45-AD7F-EF611B231FA3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Logout" key="{A77282FD-2D8C-45B2-A6EB-3DB5624F1E83}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C7C5602A-1C01-4B45-AD7F-EF611B231FA3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{B9361188-A91E-43B5-96D2-9D0DC524F2BE}" />
+	<variables key="{B9361188-A91E-43B5-96D2-9D0DC524F2BE}">
+		<data Version="4">
+			<Items>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031004400330044003100460034004400380042003300460037003900340039004500350046003900370032003200460039004600420037004400380045003100460036003200370043004200340030003500320043003000390036003600440045004600440034003600370043004300380038004300430034004200390032004400410041003700440033003600440038003800380045004100330039003600310044004300" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{F0DFA09D-5054-4003-AB0C-E8CF9CFF81AF}">
 		<settingsVersion value="15.52" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />

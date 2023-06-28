@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Login" key="{40ECDA81-44C1-4754-9225-D249C14B14A3}" path="Login.js" />
+		<child name="Logout" key="{690CA73A-51D7-414E-BB14-ADDFA9B648CD}" path="Logout.js" />
+		<child name="CreatePost" key="{CD784548-79B3-4DF9-8D5D-195C8CF4B15C}" path="CreatePost.js" />
+		<child name="CreateComment" key="{E42948FF-7A31-4FC7-A4D7-FE99F5BC9D6F}" path="CreateComment.js" />
+	</children>
+</Root>
